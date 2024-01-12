@@ -1,7 +1,3 @@
-# League Backend Challenge
-
-In main.go you will find a basic web server written in GoLang. It accepts a single request _/echo_. Extend the webservice with the ability to perform the following operations
-
 Given an uploaded csv file
 ```
 1,2,3
@@ -47,21 +43,7 @@ Given an uploaded csv file
 
 The input file to these functions is a matrix, of any dimension where the number of rows are equal to the number of columns (square). Each value is an integer, and there is no header row. matrix.csv is example valid input.  
 
-Run web server
-```
-go run .
-```
-
 Send request
 ```
 curl -F 'file=@/path/matrix.csv' "localhost:8080/echo"
 ```
-
-## What we're looking for
-
-- The solution runs
-- The solution performs all cases correctly
-- The code is easy to read
-- The code is reasonably documented
-- The code is tested
-- The code is robust and handles invalid input and provides helpful error messages
