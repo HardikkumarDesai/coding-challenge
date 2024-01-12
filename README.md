@@ -52,17 +52,18 @@ curl -F 'file=@/path/matrix.csv' "localhost:8080/echo"
 
 Project setup instructions :
 
-Extract project zip file in htdocs or www folder.
+1. Clone project in htdocs or www folder.
 
-Navigate to league-coding-challenge in terminal.
+2. Navigate to cloned `coding-challenge` repo in terminal.
 
-Run composer install command in terminal.
+3. Run `composer install` command in terminal.
 
-Use below listed commands in terminal to perform actions :
+4. Use below listed commands in terminal to perform actions :
 
- a. curl -F 'file=@matrix.csv' "http://localhost:8888/league-coding-challenge/echo"
- b. curl -F 'file=@matrix.csv' "http://localhost:8888/league-coding-challenge/invert"
- c. curl -F 'file=@matrix.csv' "http://localhost:8888/league-coding-challenge/flatten"
- d. curl -F 'file=@matrix.csv' "http://localhost:8888/league-coding-challenge/sum"
- e. curl -F 'file=@matrix.csv' "http://localhost:8888/league-coding-challenge/multiply"
-Run ./vendor/bin/phpunit command to execute all unit test
+     a. curl -F 'file=@matrix.csv' "http://localhost:8888/league-coding-challenge/echo"
+     b. curl -F 'file=@matrix.csv' "http://localhost:8888/league-coding-challenge/invert"
+     c. curl -F 'file=@matrix.csv' "http://localhost:8888/league-coding-challenge/flatten"
+     d. curl -F 'file=@matrix.csv' "http://localhost:8888/league-coding-challenge/sum"
+     e. curl -F 'file=@matrix.csv' "http://localhost:8888/league-coding-challenge/multiply"
+ 
+5. Run ./vendor/bin/phpunit command to execute all unit test
