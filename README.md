@@ -60,14 +60,14 @@ Project setup instructions :
 
 4. Use below listed commands in terminal to perform actions :
 
-   curl -F 'file=@matrix.csv' "http://localhost:8888/league-coding-challenge/echo"
+   curl -F 'file=@matrix.csv' "http://localhost:8888/coding-challenge/echo"
    
-   curl -F 'file=@matrix.csv' "http://localhost:8888/league-coding-challenge/invert"
+   curl -F 'file=@matrix.csv' "http://localhost:8888/coding-challenge/invert"
 
-   curl -F 'file=@matrix.csv' "http://localhost:8888/league-coding-challenge/flatten"
+   curl -F 'file=@matrix.csv' "http://localhost:8888/coding-challenge/flatten"
 
-   curl -F 'file=@matrix.csv' "http://localhost:8888/league-coding-challenge/sum"
+   curl -F 'file=@matrix.csv' "http://localhost:8888/coding-challenge/sum"
 
-   curl -F 'file=@matrix.csv' "http://localhost:8888/league-coding-challenge/multiply"
+   curl -F 'file=@matrix.csv' "http://localhost:8888/coding-challenge/multiply"
  
 6. Run ./vendor/bin/phpunit command to execute all unit test
